@@ -5,7 +5,7 @@ import Calculator from './Calc';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/my-react-app1">
       <div className='buttons'>
         <Link to='/TicTac'><button>TicTacToe</button></Link>
         <Link to='/Calc'><button>Calculator</button></Link>
